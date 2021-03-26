@@ -1,10 +1,10 @@
-# typescript-react-app - eslint 적용
+# typescript + react-app + eslint - boilerplate
 
 ## 설치
 
 - yarn add -D eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks
 
-- yarn add -D typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser
+- yarn add -D prettier typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
 ## eslint 관련 파일 생성 및 설정
 
