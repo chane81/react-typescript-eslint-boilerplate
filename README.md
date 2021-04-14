@@ -90,6 +90,25 @@
 **/.vscode/*
 ```
 
+- module alias 관련 설정
+  - eslint-import-resolver-typescript 모듈 설치
+  - .eslintrc 에 아래와 같이 "typescript" 옵션 설정
+
+  ```json
+    ...
+    "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      },
+      // 모듈 alias 사용을 위해 "eslint-import-resolver-typescript" 패키지를 설치후 아래와 같이 설정
+      "typescript": {
+        "project": "./tsconfig.json"
+      }
+    }
+  }
+  ```
+
 ## prettier 관련 설정
 
 - .prettierrc (prettier 설정들)
